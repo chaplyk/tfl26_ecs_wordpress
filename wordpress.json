@@ -1,0 +1,14 @@
+[
+    {
+      "portMappings": [
+        {
+          "hostPort": 0,
+          "containerPort": 80,
+          "protocol": "tcp"
+        }
+      ],     
+      "name": "wordpress",
+      "image": "wordpress:latest",
+      "memory": 256
+    }
+   ]
